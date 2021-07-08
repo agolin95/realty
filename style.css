@@ -2,9 +2,13 @@ html {
     font-family: 'Poppins', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 #titleNtag {
     margin-bottom: 30px;
-    background-image: url("/img/home.jpg");
+    background-image: url("img/home.jpg");
     background-position: center;
     background-repeat: none;
     background-size: cover;
@@ -31,23 +35,33 @@ html {
 
 #boxes {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .box {
-    width: 500px;
-    min-width: 200px;
     height: 200px;
-    background-color: white;
+    width: 300px;
+    background-color: maroon;
     padding: 20px;
     margin: 20px;
     border-radius: 10px;
-    border: solid maroon 5px;
-    color: black;
+    color: white;
     font-size: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+    opacity: 100%;
+    -webkit-transition: opacity 500ms ease;
+    -ms-transition: opacity 500ms ease;
+    transition: opacity 500ms ease;
+}
+
+.box:hover {
+    opacity: 80%;
+    -webkit-transition: opacity 500s ease;
+    -ms-transition: opacity 500ms ease;
+    transition: opacity 500ms ease;
 }
 
 #footer {
