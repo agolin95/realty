@@ -1,4 +1,7 @@
-html {}
+html {
+    background: maroon;
+    color: white;
+}
 
 #splash {
     display: flex;
@@ -15,9 +18,11 @@ html {}
 #splash h1 {
     font-size: clamp(40px, 5vw, 60px);
     padding: 10px;
+    font-family: 'Copperplate', sans-serif;
 }
 
 #splash h2 {
     font-size: 25px;
     padding: 10px;
+    font-family: 'Poppins', sans-serif;
 }
