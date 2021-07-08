@@ -1,0 +1,23 @@
+html {}
+
+#splash {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+#titleNtag {
+    text-align: center;
+}
+
+#splash h1 {
+    font-size: clamp(40px, 5vw, 60px);
+    padding: 10px;
+}
+
+#splash h2 {
+    font-size: 25px;
+    padding: 10px;
+}
